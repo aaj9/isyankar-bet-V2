@@ -1,0 +1,122 @@
+button, input, textarea, select {
+  font: inherit;
+}
+
+button {
+  background: none;
+  border: 0;
+  color: inherit;
+}
+
+img, svg {
+  display: block;
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+:root {
+  --bg: #0b0f14;
+  --bg-elevated: #10161e;
+  --sidebar: #0d1218;
+  --header: #10161e;
+  --surface: #151b24;
+  --surface-2: #1c2430;
+  --line: rgba(255, 255, 255, 0.07);
+  --text: #f4f7fb;
+  --muted: #8b9bb0;
+  --green: #8b7cff;
+  --green-dim: #6d4aff;
+  --gold: #f5c518;
+  --gold-dim: #c9a014;
+  --red: #ff4d4f;
+  --sidebar-w: 56px;
+  --sidebar-w-drawer: 280px;
+  --header-h: 80px;
+  --shell-glass-bg: rgba(10, 12, 16, 0.55);
+  --shell-glass-sidebar: rgba(9, 11, 15, 0.52);
+  --shell-glass-blur: 16px;
+  --radius: 14px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 18px;
+  --line-subtle: rgba(255, 255, 255, 0.05);
+  --line-strong: rgba(255, 255, 255, 0.1);
+  --font-display: proxima-nova, ui-sans-serif, -apple-system, system-ui, sans-serif;
+  --font-body: proxima-nova, ui-sans-serif, -apple-system, system-ui, sans-serif;
+  --text-sm: 13px;
+  --text-xs: 12px;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --motion-fast: 0.18s;
+  --motion-med: 0.28s;
+  --glass-bg: rgba(255, 255, 255, 0.06);
+  --glass-bg-strong: rgba(109, 74, 255, 0.22);
+  --glass-border: rgba(255, 255, 255, 0.12);
+  --glass-blur: 12px;
+  --focus-ring: 0 0 0 2px rgba(12, 14, 20, 0.95), 0 0 0 4px rgba(139, 124, 255, 0.55);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  text-transform: none !important;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+}
+
+a {
+  color: var(--green);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c4b5ff;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a3544;
+  border-radius: 99px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
